@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'ZCOOL XiaoWei', serif;
+    font-weight: bold;
+}
+
+.maintitle {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+body {
+    /* linear gradient */
+    /* background-color: #da001f; */
+    background: linear-gradient(45deg, #550101 0%, #f30b2e 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 1rem;
+}
+
+.mainimg {
+    max-width: 400px;
+    border-radius: 20%;
+    border: 5px solid black;
+    transition: 0.4s;
+}
+
+.mainimg:hover {
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+.socials {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.socials a {
+}
+
+.socials a img {
+    border-radius: 100%;
+    transition: 0.4s;
+    max-width: 16rem;
+
+}
+
+.socials a img:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+}
